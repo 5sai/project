@@ -1,0 +1,40 @@
+* {box-sizing: border-box;}
+.bg-img {
+    /* The image used */
+    
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  
+    min-height:625px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position:relative;
+  }
+.shadow {
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.position{
+    text-align: center;
+    color:rgb(12, 12, 12);
+}
+.url{
+    color: white;
+    list-style: none;
+}
+.place{
+    margin-left: 50px;
+}
+.container{
+    margin-top: 130px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

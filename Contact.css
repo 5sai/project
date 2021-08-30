@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+.bg-img{
+        
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    
+  
+    min-height:625px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position:relative;
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+
+}
+.shadow {
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.position{
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+* {box-sizing: border-box;}
+
+.bg-img {
+    /* The image used */
+    background-image: url("/Images/img2.jpg");
+  
+    min-height:625px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position:relative;
+  }
+.shadow {
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.hover-item:hover{
+    color: rgb(39, 59, 206);
+}
+.image{
+    width: 100px;
+    height: 150px;
+}
+.bg{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.is{
+    width: 300px;
+    height: 300px;
+}
+.size{
+    text-align: center;
+    color: white;
+}
+.is1{
+    width: 150px;
+    height: 100px;
+}
+.text{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+.testi{
+    text-align: center;
+    color: white;
+}
